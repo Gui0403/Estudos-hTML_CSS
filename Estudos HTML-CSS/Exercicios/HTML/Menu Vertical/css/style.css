@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Outfit', sans-serif
+}
+body{
+    height: 900vh;
+    background-image:linear-gradient(to right, rgb(25, 195, 90), rgb(13, 138, 188));
+}
+nav.menu-lateral{
+    box-shadow: 3px 0 0 rgb(51, 51, 213);
+    width: 50px;
+    height: 100%;
+    background-color: rgb(48, 48, 49);
+    padding: 40px 0 40px 1%;
+    transition: .5s;
+    overflow: hidden;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+nav.menu-lateral.expander{
+    width: 300px;
+}
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+}
+.btn-expandir > i{
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin: -5px;
+
+}
+ul{
+    height: 100%;
+    list-style-type: none;
+
+}
+ul li.item-menu{
+    transition: .5s;
+}
+ul li.ativo{
+    background-color: blue;
+}
+ul li.item-menu:hover{
+    background-color: blue;
+    
+}
+ul li.item-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 40px;
+    line-height: 40px;
+}
+ul li.item-menu a .txt-link{
+    margin-left: 35px;
+
+}
+ul li.item-menu a .icon > i{
+    font-size: 30px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+
+}

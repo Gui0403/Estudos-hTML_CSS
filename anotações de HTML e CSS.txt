@@ -1,0 +1,7 @@
+TCP/IP Criado pelo Bob Kahn e Vint Cerf
+HTML(Hyper text markup language), http:// e WWW (Wolrd wide Web) criado pelo Tim berners-lee
+
+UTF-8 ?
+HTML = Linguagem focada em conteúdo: Texto, imagens, videos, tabelas,etc.
+CSS = Design: tamanho, posição, cor,etc.
+JS = Interações: menus, animações, popups,validações, etc.

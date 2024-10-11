@@ -1,0 +1,67 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/youtube.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/instagram.css');
+
+
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 5px;
+    color: black;
+
+    & h1{
+        display: flex;
+        justify-content: center;
+        margin: 15px;
+    
+    }
+    & img{
+        border-radius: 6%;
+        display: block;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        transition: ease-in 0.3s;
+    }
+}
+
+header{
+    background-color: gray;
+
+    & .logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem;
+        color: white;
+        list-style: none;
+
+        & a.ativado{
+            color: green;
+        }
+    }
+}
+.logo a:hover{
+    font-size:15px;
+    color: green;
+    
+}
+
+footer{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+    & i{
+        margin: 10px;
+        
+    }
+    & i:hover{
+        scale: 1.3;
+        color: green;
+
+    }
+}
